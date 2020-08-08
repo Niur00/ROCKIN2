@@ -1,0 +1,75 @@
+#div-T{
+	border: 1px solid white;
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+}
+.div-1{
+	margin-left: 350px;
+	margin-top: 90px;
+}
+.div-2{
+	margin-left: 460px;
+	margin-top: -78px;
+}
+.div-3{
+	margin-left: 570px;
+	margin-top: -80px;
+}
+.div-4{
+	margin-left: 670px;
+	margin-top: -78px;
+}
+#div-child{
+	margin-left: 280px;
+	margin-top: 80px;
+}
+#div-child-2{
+	margin-left: 335px;
+	margin-top: 80px;
+}
+#div-T-B{
+	margin-left: 350px;
+	width: 400px;
+	height: 30px;
+}
+#span{
+	margin-left: 100px;
+}
+#div-face{
+	margin-left: 480px;
+	margin-top: -10px;
+	border-radius: 30px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid;
+}
+#div-twitter{
+	margin-left: 540px;
+	margin-top: -38;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid;
+}
+#div-in{
+	margin-left: 600px;
+	margin-top: -38px;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid;
+}
+#icon{
+	margin-left: 11px;
+	margin-top: 8px;
+}
+#div-b{
+	margin-left: 500px;
+}
+#div-span{
+	margin-left: 280px;
+}
+#span-2{
+	margin-left: 100px;
+}

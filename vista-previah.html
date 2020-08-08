@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/icono.png"/>
+  <title>ROCK•IN</title>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/custom-style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/indexStyle.css" />
+  <!-- =======================================================
+    Theme Name: Rockin
+    Author: Joaquin Reyes
+  ======================================================= -->
+</head>
+<body>
+  <!---NAVIGATION-->
+  <!---SLIDER-->
+  <div class='container-fluid'>
+  <!--Empieza el menu-->
+  <div class="row">
+    <nav class="navbar navbar-default" id="menu">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="li_m1"><img src="images/logo.jpg" style="height: 7.5vh; width: 10vw; margin-right: 1vw;" /></li>
+          <li class="li_m1"><a id="a1" href="index.html"><span class="m1">Inicio</span></a></li>
+          <li class="li_m1"><a id="a1" href="SeccionMujeres.html"><span class="m1">Mujeres</span></a></li>
+          <li class="li_m1"><a id="a2" href="pagina-hombres.html"><span class="m1">Hombres</span></a></li>
+          <li class="li_m1" style="margin-left: 50vw"><a href="Registro-inicio.html"><span class="m1">Ingresar / Registrarse</span></a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="menu2">
+      <ul class="navbar-nav" id="m2">
+        <li><a id="n" class="m2" href="#">Novedades</a></li>
+        <li><a id="e" class="m2" href="#">Exclusivo</a></li>
+        <li><a id="r" class="m2" href="#">Ropa</a></li>
+        <li><a id="t" class="m2" href="#">Tallas</a></li>
+        <li><a id="a" class="m2" href="#">Accesorios</a></li>
+        <li><a id="d" class="m2" href="#">Descuentos</a></li>
+        <li style="margin-left: 35vw; padding-top: 1vh;">
+          <div class="input-group" style="width: 20vw;">
+            <input type="text" class="form-control">
+            <div class="input-group-btn">
+              <button class="btn btn-one"><span class="glyphicon glyphicon-search"></span></button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="row">
+    <div id="novedades" class="menu-contenido">Novedades</div>
+    <div id="exclusivo" class="menu-contenido">Exclusivo</div>
+    <div id="ropa" class="menu-contenido">Ropa</div>
+    <div id="tallas" class="menu-contenido">Tallas</div>
+    <div id="accesorios" class="menu-contenido">Accesorios</div>
+    <div id="descuentos" class="menu-contenido">Descuentos</div>
+  </div>
+  <!--Termina el menu-->
+</div>
+	<div class="container">
+	     <div class="row">
+		<div class="col-md-4">
+		     <div class="photos-left">
+           <div class="col-md-8">
+             <div id="descripcion">
+                 <h4>ROCK-IN Camisa</h4>
+                 <p style="color: gray">Código: shirt34239001</p>
+                 <h2>$MXN299.99</h2>
+                 <p>Disponible en colores:</p>
+                 <h6>Blanco*</h6>
+                 <p>Tallas:</p>
+                 <h6 style="letter-spacing: 5px;">XS M L</h6>
+                 <p>Cantidad:</p>
+                 <input type="number">
+                 <input id="button" type="button" value="AÑADIR A LA CESTA" onclick="añadido()">
+                 <p>Descripción:</p>
+                 <h6 class="detalles">Color:	Blanco</h6>
+                 <h6 class="detalles">Estilo:	Casual</h6>
+                 <h6 class="detalles">Cuello:	Cuello</h6>
+                 <h6 class="detalles">Longitud de la Manga:	Manga corta</h6>
+                 <h6 class="detalles">Composición:	80% Algodón</h6>
+                 <h6 class="detalles">Tipo de Estampado:	Liso</h6>
+                 <h6 class="detalles">Tipo de ajuste:	Regular</h6>
+                 <h6 class="detalles">Tejido:	Tejido no elástico</h6>
+                 <h6 class="detalles">Temporada:	Verano</h6>
+                 <h6 class="detalles">Tipo de Camisa:	Top</h6>
+                 <h6 class="detalles">Edad:	Hombre</h6>
+             </div>
+           </div>
+	 	     </div>
+	 	 </div>
+	     <div class="col-md-4">
+        <img class="img-full" src="images/1h.png" alt="">
+        <div class="col-md-12 text-center">
+        <div class="col-md-2">
+          <img class="thumbnail" src="images/1h.png" alt="" id="one">
+        </div>
+        <div class="col-md-2">
+            <img class="thumbnail" src="images/2h.png" alt="" id="two">
+        </div>
+        <div class="col-md-2">
+            <img class="thumbnail" src="images/3h.png" alt="" id="three">
+        </div>
+        <div class="col-md-2">
+            <img class="thumbnail" src="images/4h.png" alt="" id="four">
+        </div>
+        <div class="col-md-2">
+          <img class="thumbnail" src="images/5h.png" alt="" id="five">
+        </div>
+      </div>
+	     </div>
+	 </div>
+	</div>
+  <!---DESCRIPTION-->
+  <!--Inicia el footer-->
+  <div class="row" id="footer">
+      <div class="col-lg-4 col-md-4" style="border-right: 1px gray solid; padding-bottom: 4vh">
+        <h3 class="foot">ACERCA DE ROCKIN</h3>
+        <p><a href="#" class="foot">¿Quiénes Somos?</a></p>
+        <p><a href="#" class="foot">Nuestra Historia</a></p>
+        <p><a href="#" class="foot">Clothing & Life Style</a></p>
+        <p><a href="#" class="foot">Ayuda</a></p>
+      </div>
+      <div class="col-lg-4 col-md-4" style="border-right: 1px gray solid; padding-bottom: 4vh; padding-left: 2vw">
+        <h3 class="foot">POLITICA ROCKIN</h3>
+        <p><a href="#" class="foot">Aviso de Privacidad</a></p>
+        <p><a href="#" class="foot">Política de Compra</a></p>
+        <p><a href="#" class="foot">Política de Envío</a></p>
+        <p><a href="#" class="foot">Política de Devoluciones</a></p>
+      </div>
+      <div class="col-lg-4 col-md-4" style="padding-left: 2vw">
+        <h3 class="foot">CONTACTANOS</h3>
+        <p style="color: gray">Redes Sociales</p>
+        <p style="font-size: 20px"><a href="https://www.facebook.com/" class="foot" style="margin-right: 1vw"><span class="fab fa-facebook"></span></a><a href="https://twitter.com/" class="foot" style="margin-right: 1vw"><span class="fab fa-twitter"></span></a><a href="https://www.instagram.com/" class="foot"><span class="fab fa-instagram"></span></a></p>
+        <p style="color: gray">Tel. (01) 81 1234 5678</p>
+        <p style="color: gray">Avenida #1234</p>
+      </div>
+    </div>
+    <div class="row" style="background-color: gray">
+      <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center'>
+        <a href="#" id="terminos-condiciones">Términos y condiciones</a>
+      </div>
+    </div>
+    <!--Termina el footer-->
+</body>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script>
+  $(document).ready(function (){
+    $("#one").mouseenter(function (){
+      $(".img-full").replaceWith("<img src='images/1h.png' class='img-full'>");
+    })
+    $("#one").mouseleave(function (){
+      $(".img-full").replaceWith("<img src='images/1h.png' class='img-full'>");
+    })
+    $("#two").mouseenter(function (){
+      $(".img-full").replaceWith("<img src='images/2h.png' class='img-full'>");
+    })
+    $("#two").mouseleave(function (){
+      $(".img-full").replaceWith("<img src='images/1h.png' class='img-full'>");
+    })
+    $("#three").mouseenter(function (){
+      $(".img-full").replaceWith("<img src='images/3h.png' class='img-full'>");
+    })
+    $("#three").mouseleave(function (){
+      $(".img-full").replaceWith("<img src='images/1h.png' class='img-full'>");
+    })
+    $("#four").mouseenter(function (){
+      $(".img-full").replaceWith("<img src='images/4h.png' class='img-full'>");
+    })
+    $("#four").mouseleave(function (){
+      $(".img-full").replaceWith("<img src='images/1h.png' class='img-full'>");
+    })
+    $("five").mouseenter(function (){
+      $(".img-full").replaceWith("<img src='images/5h.png' class='img-full'>");
+    })
+    $("five").mouseleave(function (){
+      $(".img-full").replaceWith("<img src='images/1h.png' class='img-full'>");
+    })
+  })
+  function añadido() {
+    alert('Se ha añadido exitosamente el producto a la cesta.')
+  }
+  // Inicio script del menu
+  $('a#a1').click(function() {
+      $(this).addClass('active')
+      $('a#a2').removeClass('active')
+      $('a#a3').removeClass('active')
+    })
+    $('a#a2').click(function() {
+      $(this).addClass('active')
+      $('a#a1').removeClass('active')
+      $('a#a3').removeClass('active')
+    })
+    $('a#a3').click(function() {
+      $(this).addClass('active')
+      $('a#a1').removeClass('active')
+      $('a#a2').removeClass('active')
+    })
+
+    $('a#n').hover(function() {
+      $('div#novedades').toggleClass('show')
+    })
+    $('a#e').hover(function() {
+      $('div#exclusivo').toggleClass('show')
+    })
+    $('a#r').hover(function() {
+      $('div#ropa').toggleClass('show')
+    })
+    $('a#t').hover(function() {
+      $('div#tallas').toggleClass('show')
+    })
+    $('a#a').hover(function() {
+      $('div#accesorios').toggleClass('show')
+    })
+    $('a#d').hover(function() {
+      $('div#descuentos').toggleClass('show')
+    })
+    // Fin script del menu
+</script>
+<html>

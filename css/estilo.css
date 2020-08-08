@@ -1,0 +1,22 @@
+img{
+    margin-top: 20px;
+    cursor: pointer;
+}
+div.primera{
+    margin-left: 35px;
+}
+div.segunda{
+    margin-right: -35px;
+}
+div.primera, div.tercera{
+    margin-right: -35px;
+}
+  div.ropa{
+    border-top: 1px solid #eeeeee;
+    margin: 10px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  div.opcion{ 
+    margin-top: 10px;
+    border: 1px solid #eeeeee;
+  }

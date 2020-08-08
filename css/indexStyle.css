@@ -1,0 +1,127 @@
+.navbar-header {
+    padding-left: 23vw;
+    }
+.active {
+    background-color: white;
+    }
+li:hover {
+    background-color: white;
+    }
+.m2:hover {
+    text-decoration: none;
+    }
+.m2 {
+    color: black;
+    font-size: 12px;
+    float: left;
+    width: 6vw;
+    text-align: center;
+    }
+.m2:hover {
+    border-bottom: 1px black solid;
+    color: red;
+    }
+.btn-one {
+    background-color: white;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    border-right: 1px gray solid;
+    }
+.m1 {
+    color: black;
+    }
+.menu-contenido {
+    height: 10vh;
+    width: 100vw;
+    border: 1px gray solid;
+    display: none;
+    }
+ul {
+    list-style-type: none;
+    }
+.imgSlider {
+    height: 80vh;
+    width: 98.79vw;
+    }
+.slider {
+    position: relative;
+    }
+.slider > div {
+    position: absolute;
+    }
+#content {
+    height: 97vh;
+    width: 98.79vw;
+    margin-top: 79vh;
+    background-color: black;
+    }
+.imgGen {
+    width: 20vw;
+    height: 15vh;
+    margin-top: 3vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    }
+.imgGen:hover {
+    width: 25vw;
+    height: 20vh; 
+    margin: 0;
+    cursor: pointer;
+    }
+.clothes {
+    width: 70%;
+    }
+.clothes:hover {
+    width: 80%;
+    cursor: pointer;
+    }
+.lif:hover {
+    background-color: transparent;
+    }
+#footer {
+    margin-top: 10vh;
+    height: 35vh;
+    background-color: #F2F2F2;
+    border: 1px #E6E6E6 solid;
+    padding: 1%;
+    }
+.foot {
+    color: gray;
+    }
+.foot:hover {
+    cursor: pointer;
+    }
+#desc {
+    height: 80vh;
+    }
+#desc:hover, #promo1:hover, #promo2:hover, #articulo1:hover, #articulo2:hover, #articulo3:hover, #articulo4:hover {
+    cursor: pointer;
+}
+#promo1 {
+    height: 40vh;
+    }
+#promo2 {
+    height: 40vh;
+    }
+#articulo1, #articulo2, #articulo3, #articulo4 {
+    height: 35vh;
+    }
+#lastElement {
+    height: 70vh;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    }
+#terminos-condiciones {
+    color: white;
+    }
+#terminos-condiciones:hover {
+    cursor:pointer
+    }
+#promo {
+    height: 100%;
+    width: 100%;
+}
+#art1, #art2, #art3, #art4, #arts1, #arts2, #arts3 {
+    height: 100%;
+    width: 100%;
+}

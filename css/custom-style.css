@@ -1,0 +1,74 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#fcfcfb;
+}
+li {
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-family: 'Raleway', sans-serif;
+}
+h4 {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Harmattan', sans-serif;
+  font-size: 19px;
+}
+h2 {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 900;
+  color: #b92320;
+}
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+.detalles {
+  color: gray;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+.img-full {
+  width: 600px;
+  height: 799px;
+}
+.thumbnail {
+  width: 67px;
+  height: 87px;
+}
+.img-left {
+  display: block;
+  float: left;
+  margin-left: 60px;
+}
+.oferta {
+  text-align: center;
+}
+#button {
+  width: 203px;
+  background-color: black;
+  border-color: black;
+  color: white;
+  margin-top: 5px;
+  height: 40px;
+  font-family: 'ABeeZee', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+#oferta1 {
+  margin-left: 12px;
+  margin-top: 7px;
+}
+#compra {
+  background-color:	#c0cfea;
+  border-color: #c0cfea; 
+  color: white; 
+  letter-spacing: 4px;
+  font-weight: bold;
+  padding: 9px;
+  margin-top: 9px;
+  width: 300px;
+}

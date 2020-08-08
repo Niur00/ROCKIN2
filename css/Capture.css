@@ -1,0 +1,56 @@
+#Capture{
+		margin-top: 2px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #69DC60;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#Icons{
+	width: 120px;
+	height: 35px;
+	color: white;
+	margin-left: 900px;
+	margin-top: -46px;
+}
+#Face{
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
+#Twitter{
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
+#G{
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
+#Fondo-img{
+	background-image: url('http://mundourbano.com.co/wp-content/uploads/2016/02/narracion-fotografia.jpg');
+}
+#div-drands{
+	background-color: grey;
+	color: #B5B5B5;
+}
+#div-text{
+	margin-left: 90px;
+	text-align: left;
+}
